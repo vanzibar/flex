@@ -51,7 +51,7 @@
       <div class="content">
         <nav class="sidebar">
           <ul class="side-nav">
-            <li class="side-nav__item">
+            <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
                   <use xlink:href="img/sprite.svg#icon-home"></use>
@@ -86,7 +86,150 @@
           </ul>
           <div class="legal">&copy; 2017 by trillo. All rights reserved.</div>
         </nav>
-        <main class="hotel-view">Hotel View</main>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="img/hotel-1.jpg" alt="hotel 1" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-2.jpg" alt="hotel 1" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="img/hotel-3.jpg" alt="hotel 3" class="gallery__photo" />
+            </figure>
+          </div>
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Las Palmas</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__description">
+              <p class="paragraph">
+                Versatile, delicious and easy to make, caponata is probably
+                Siciliy’s best known dish. Throughtout the centuries Siciliy has
+                been invaded and conolonised by many other nations and many
+                Sicilian recipes show influences from other cuisines. here you
+                will see that there are some hints of the french ratatouille,
+                while the inclusion of rai
+              </p>
+              <p class="paragraph">
+                Versatile, delicious and easy to make, caponata is probably
+                Siciliy’s best known dish. Throughtout the centuries Siciliy has
+                been invaded and conolonised by many other nations and many
+                Sicilian recipes show influences from other cuisines. here you
+                will see that there are some hints of the french ratatouille,
+                while the inclusion of rai
+              </p>
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Close to the shops</li>
+                <li class="list__item">Close to the restaurants</li>
+                <li class="list__item">Close to the clubs</li>
+                <li class="list__item">Close to the bars</li>
+                <li class="list__item">Close to the pool</li>
+                <li class="list__item">Close to the airport</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends recommend this hotel.
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="user 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="user 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="user 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="user 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="detail__user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Cut the aubergine into 3cm chunks, soak in cold water for 5
+                  minutes, then drain. This will stop the aubergine from
+                  absorbing too much oil. Fry the onion in the olive oil in a
+                  large pan for a a few minutes to soften. Put the aubergine
+                  chunks in
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-1.jpg" alt="nick" class="review__photo" />
+                  <div class="review__review-box">
+                    <p class="review__review-name">Nick Smith</p>
+                    <p class="review__review-date">Feb 23rd 2019</p>
+                  </div>
+                  <div class="review__review-rating">7.8</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  Cut the aubergine into 3cm chunks, soak in cold water for 5
+                  minutes, then drain. This will stop the aubergine from
+                  absorbing too much oil. Fry the onion in the olive oil in a
+                  large pan for a a few minutes to soften. Put the aubergine
+                  chunks in
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="img/user-2.jpg" alt="mary" class="review__photo" />
+                  <div class="review__review-box">
+                    <p class="review__review-name">Mary Thomas</p>
+                    <p class="review__review-date">Marc 27rd 2019</p>
+                  </div>
+                  <div class="review__review-rating">8.8</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show All <span>&rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">Book some stuff please!</h2>
+            <button class="btn">
+              <span class="btn__visible">Book Now</span>
+              <span class="btn__invisible">Only 4 Rooms Left</span>
+            </button>
+          </div>
+        </main>
       </div>
     </div>
   </body>
