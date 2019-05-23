@@ -28,6 +28,12 @@
 
   //center on the y axis
   align-items: center;
+
+  @media only screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
 }
 
 .content {
@@ -64,12 +70,30 @@
   border-bottom: var(--border-light);
   font-size: 1.4rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
+
   &__description {
     background-color: white;
     flex: 0 0 60%;
     margin-right: 4.5rem;
     box-shadow: var(--shadow-light);
     padding: 3rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      padding: 2rem;
+      margin-right: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      margin-right: 0;
+      margin-bottom: 3rem;
+    }
   }
 
   &__user-reviews {
